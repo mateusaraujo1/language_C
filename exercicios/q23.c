@@ -1,3 +1,8 @@
+/*Crie uma estrutura para representar as coordenadas de um ponto no plano (posições x
+e y). Em seguida, declare e leia do teclado um ponto e exiba a distância d dele até a
+origem das coordenadas, isto é, a posição (0,0). */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -13,7 +18,7 @@ void distance(int x, int y) {
 
     D = sqrt(pow(x, 2) + pow(y, 2));
 
-    printf("A distância do ponto (%d, %d) ao ponto (0, 0) é %.2f", x, y, D);
+    printf("A distância do ponto (%d, %d) ao ponto (0, 0) é %.1f", x, y, D);
 }
 
 int main()

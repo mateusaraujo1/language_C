@@ -1,3 +1,13 @@
+/*Exercício 24
+Crie uma estrutura capaz de armazenar o primeiro nome e a idade de uma pessoa.
+Agora, escreva um programa que leia os dados de 50 pessoas. Calcule e exiba os nomes
+da pessoa mais nova e da mais velha.
+1. Baixe o arquivo name_age.txt
+2. Execute o comando abaixo no terminal
+./a.out < name_age.txt
+OBS: se você criou o executável do seu programa com outro nome substitua o a.out pelo
+nome do seu executável*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define tam 50
