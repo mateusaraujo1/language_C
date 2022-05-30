@@ -1,0 +1,3 @@
+arroz 2 2.5
+feijao 3 3.7
+batata 8 0.50
