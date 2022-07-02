@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 int contaMinutos(int horaAtual, int minAtual, int horaAlarme, int minAlarme) {
