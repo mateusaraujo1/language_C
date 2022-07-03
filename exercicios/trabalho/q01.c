@@ -40,7 +40,7 @@ void somaDiagonais(int M[tam][tam], int *somaDP, int *somaDS) {
 
 int main(){
     
-    int M[tam][tam], *somaDP = 0, *somaDS = 0;
+    int M[tam][tam], somaDP = 0, somaDS = 0;
     
     preencherM(M);
     mostrarM(M);
