@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define tam 10
+#define tam 1
 
 int main()
 {
-	FILE *arq = fopen("numeros.bin", "rb");
+	FILE *arq = fopen("arq09.bin", "rb");
     int v[tam];
     fread(v, sizeof(int), tam, arq);
 
