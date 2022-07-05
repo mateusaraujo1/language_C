@@ -6,22 +6,22 @@
 int main()
 {
 	srand(time(NULL));
-    int num[1], ler;
+    int num, ler;
     FILE *f = fopen("arq09.bin", "rb+");
 
     if (f == NULL)
     {
         FILE *f = fopen("arq09.bin", "wb");
-        num[0] = rand() % 100 + 1;
-        fwrite(num, sizeof(int), 1, f);
+        num = rand() % 100 + 1;
+        fwrite(&num, sizeof(int), 1, f);
     }
     else 
     {
         fread(&num, sizeof(int), 1, f);
-        num[0]++;
-        printf("%d", num[0]);
+        num++;
+        printf("%d", num);
         rewind(f);
-        fwrite(num, sizeof(int), 1, f);
+        fwrite(&num, sizeof(int), 1, f);
     }
 
     fclose(f);

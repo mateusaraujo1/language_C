@@ -1,10 +1,11 @@
+//esse arquivo é apenas para ler os arquivos binarios 
 #include <stdio.h>
 #include <stdlib.h>
-#define tam 1
+#define tam 21
 
 int main()
 {
-	FILE *arq = fopen("arq09.bin", "rb");
+	FILE *arq = fopen("numeros.bin", "rb");
     int v[tam];
     fread(v, sizeof(int), tam, arq);
 
